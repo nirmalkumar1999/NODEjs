@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="/About">About</a>
+    <h1>this is a dynamiic file</h1>
+
+    <h2 style="color: green;"><marquee behavior="" direction="right">
+        <%=  name %>
+    </marquee>
+    </h2>
+    <h2 style="color: orangered;"><marquee behavior="" direction="left">
+        <%=  age %>
+    </marquee>
+    </h2>
+
+    <!-- condition -->
+     <% if(age>18){%>
+        <p>eligible for voting</p>
+        <%}%>
+</body>
+</html>
